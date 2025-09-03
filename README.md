@@ -2,7 +2,7 @@
 ### Due: Tuesday, Sep 9, 11:59PM
 
 ## Table of Contents
-1. [Assignment](#assignment)
+1. [Assignment](#assignment )
 2. [Environment Setup](#environment-setup)
 3. [Grading Breakdown](#grading-breakdown)
 4. [Rules](#rules)
