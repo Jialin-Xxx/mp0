@@ -1,1 +1,53 @@
 /* Your CSS here. */
+/* 整页白底，卡片居中 */
+body { background: pink; }
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #ffffff;
+  margin: 0;
+}
+
+/* 卡片主体：灰背景，内边距，圆角 */
+.card {
+  background: #6a6a6a;
+  color: #ffffff;
+  width: min(720px, 92vw);
+  padding: 32px 28px 44px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  text-align: center; /* 让头像、名字、链接水平居中 */
+}
+
+/* 头像 150x150（作业要求） */
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* 标题和邮箱 */
+.name { margin: 14px 0 6px; font-size: 40px; font-weight: 700; }
+.email { margin: 0 0 10px; }
+
+/* GitHub 链接：紫色、悬停下划线 */
+.link-row { margin: 6px 0 18px; }
+.gh {
+  color: #5e2ca5;            /* 紫色 */
+  text-decoration: none;
+  font-weight: 700;
+}
+.gh:visited { color: #5e2ca5; } /* 访问后仍保持紫色 */
+.gh:hover, .gh:focus { text-decoration: underline; }
+
+/* 传记文字可左对齐（作业允许左或居中） */
+.bio {
+  text-align: left;
+  line-height: 1.55;
+  margin: 14px 0;
+}
